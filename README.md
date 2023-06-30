@@ -1,70 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Here is a working demonstration:
 
-In the project directory, you can run:
+https://github.com/Ojogor/Journal/assets/98194481/00ee5d65-13ef-4d65-89d5-519f121fc717
 
-### `npm start`
+Journal App with Custom Text Editor
+This project is a journal application developed using React and powered by Draft.js, a powerful and customizable rich text editor framework. The primary goal of this application is to provide users with a versatile and intuitive platform for documenting their thoughts, ideas, and experiences in a digital journal format.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Features
+Custom Text Editor: The application incorporates a custom text editor built using Draft.js. This editor provides users with a feature-rich and highly flexible interface for composing journal entries. Users can format text, add images, create lists, apply styles, and more, empowering them to personalize their journal entries to reflect their unique writing style.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Persistent Save: The journal app ensures that users' entries are automatically saved and persisted. The application seamlessly saves drafts as users type, eliminating the need for manual saving and ensuring that progress is always preserved. The data is stored locally using the browser's local storage API.
 
-### `npm test`
+Entry Management: Users can create, edit, and delete journal entries. They can add a new entry with a default heading and content or modify existing entries. The application allows users to update the entry's title, mood, date, and content.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Print Functionality: The app provides a print feature that allows users to print their journal entries directly from the browser. The print functionality opens a new window with the entry's content formatted for printing.
 
-### `npm run build`
+Getting Started
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository: git clone https://github.com/your-username/your-repo.git
+Navigate to the project directory: cd your-repo
+Install dependencies: npm install
+Start the development server: npm start
+Open your browser and visit http://localhost:3000 to access the journal app.
+Dependencies
+The following dependencies are required to run the journal app:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+React: A JavaScript library for building user interfaces.
+Draft.js: A framework for building rich text editors.
+draft-js-export-html: to convert html to text
+react-icons: for dynamic icons
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributing
+Contributions to this project are welcome! If you find any bugs or have ideas for additional features, please submit an issue or create a pull request.
 
-### `npm run eject`
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as per the terms of this license.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgments
+We would like to express our gratitude to the open-source community for their valuable contributions and the various libraries and frameworks that made this project possible.
